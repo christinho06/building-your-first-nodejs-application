@@ -1,0 +1,14 @@
+{
+  "name": "building-your-first-nodejs-application",
+  "version": "1.0.0",
+  "description": "GoMyCode Checkpoint - Node.js modules (fs, local, nodemailer)",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "read": "node readFile.js",
+    "email": "node emailSender.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}
